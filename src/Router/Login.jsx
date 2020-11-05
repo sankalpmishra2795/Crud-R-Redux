@@ -39,14 +39,16 @@ export class Login extends Component {
               type="email"
               value={this.state.email}
               name="email"
-              onChange={this.handler}
+                  onChange={this.handler}
+                  placeholder='Enter- san123@gmail.com'
             />
             <label>Password</label>
             <input
               type="number"
               name="password"
               value={this.state.pasword}
-              onChange={this.handler}
+                  onChange={this.handler}
+                  placeholder='Enter- 12345'
             />
             <button type="submit" className="btn org">
               Login
